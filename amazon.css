@@ -290,3 +290,58 @@ ul a:hover {
         align-items: center;
     }
 }
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .nav-logo,
+    .nav-address,
+    .nav-search,
+    .nav-signin,
+    .nav-return,
+    .nav-cart {
+        width: 100%;
+        margin: 5px 0;
+        justify-content: flex-start;
+    }
+
+    .nav-search {
+        width: 100%;
+    }
+
+    .search-select {
+        width: 20%;
+    }
+
+    .search-input {
+        width: 70%;
+    }
+
+    .search-icon {
+        width: 10%;
+    }
+
+    .panel {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .panel-ops {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .panel-deals {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
